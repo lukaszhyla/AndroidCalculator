@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lhyla.testsapp.CalculatorActivity">
+
+    <TextView
+        android:id="@+id/act_test_result_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/act_test_first_num_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="First num"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/act_test_second_num_ET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Second num"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/act_test_add_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD" />
+
+    <Button
+        android:id="@+id/act_test_minus_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MINUS" />
+
+    <Button
+        android:id="@+id/act_test_multiplication_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICATION" />
+
+    <Button
+        android:id="@+id/act_test_divide_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIVIDE" />
+</LinearLayout>
