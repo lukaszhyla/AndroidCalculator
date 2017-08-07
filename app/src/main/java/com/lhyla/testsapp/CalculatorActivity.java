@@ -73,10 +73,10 @@ public class CalculatorActivity extends AppCompatActivity {
         try {
             BigDecimal result = calculator.divide(getFirstNumFromET(), getSecondNumFromET());
             setResultTVText(result);
-        } catch (NumberFormatException num){
+        } catch (NumberFormatException num) {
             num.printStackTrace();
 
-        } catch (ArithmeticException num){
+        } catch (ArithmeticException num) {
             num.printStackTrace();
             showShortToast("Cannot be spilt by zero");
         }

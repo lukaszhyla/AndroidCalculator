@@ -31,11 +31,16 @@ public class CalculatorViewTest {
     }
 
     @Test
-    public void setEditText() {
-        solo.assertCurrentActivity("Current Activity",
-                CalculatorActivity.class);
+    public void setFirstEditTextIntegers() {
         solo.enterText(0, "1");
         solo.enterText(1, "2");
+        solo.clickOnButton(1);
+    }
+
+    @Test
+    public void setSecondEditTextNulls() {
+        solo.enterText(0, "");
+        solo.enterText(1, "");
         solo.clickOnButton(1);
     }
 

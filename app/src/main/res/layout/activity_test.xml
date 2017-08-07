@@ -20,7 +20,7 @@
         android:id="@+id/act_test_first_num_ET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="numberDecimal|numberSigned"
         android:hint="First num"
         android:textAlignment="center"/>
 
@@ -28,7 +28,7 @@
         android:id="@+id/act_test_second_num_ET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
+        android:inputType="numberDecimal|numberSigned"
         android:hint="Second num"
         android:textAlignment="center"/>
 
